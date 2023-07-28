@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const crypto = require("node:crypto");
+// add cors
 const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT;
